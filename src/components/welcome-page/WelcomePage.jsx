@@ -3,5 +3,9 @@ import './welcome-page.scss';
 import React from 'react';
 
 export const WelcomePage = () => {
-  return <div></div>;
+  return (
+    <div className="welcome-container">
+      <div className="app-title">Ders Notlari</div>
+    </div>
+  );
 };
