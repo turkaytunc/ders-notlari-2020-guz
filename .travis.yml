@@ -22,7 +22,7 @@ after_script:
   - CODECOV_TOKEN=$CODECOV_TOKEN codecov
 deploy:
   provider: pages
-  cleanup: true
+  skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: build
   on:
