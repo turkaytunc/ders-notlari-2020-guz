@@ -1,1 +1,3 @@
-# ders-notlari-2020-guz
+# 2020 guz donemi ders notlari
+
+## Icindekiler
