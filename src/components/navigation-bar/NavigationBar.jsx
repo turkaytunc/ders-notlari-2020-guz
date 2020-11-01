@@ -5,12 +5,26 @@ import siteart from '../../site-icon.png';
 
 export const NavigationBar = () => {
   return (
-    <nav className="navigation-bar-container">
+    <nav className="navbar-container">
       <div className="site-art">
         <img src={siteart} alt="siteart" />
       </div>
-      <ul className="navigation-menu">
-        <li className="navigation-menu-item"></li>
+      <ul className="navbar-menu">
+        <li className="navbar-menu-item">
+          <Link className="navbar-link" to="/">
+            Ana Sayfa
+          </Link>
+        </li>
+        <li className="navbar-menu-item">
+          <Link className="navbar-link" to="/formel-diller">
+            Formel Diller
+          </Link>
+        </li>
+        <li className="navbar-menu-item">
+          <Link className="navbar-link" to="/mobil-uygulama">
+            Mobil Uygulama
+          </Link>
+        </li>
       </ul>
     </nav>
   );
