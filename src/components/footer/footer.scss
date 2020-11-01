@@ -1,3 +1,35 @@
+$footer-color: #fff8e8;
+$footer-background-color: #234475;
+
 .footer-container {
-  grid-row: 10/13;
+  grid-row: 12/13;
+  color: $footer-color;
+  background-color: $footer-background-color;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 1em 1em;
+}
+
+.footer-social {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.footer-social-container {
+  display: flex;
+  align-items: center;
+  grid-column: span 4;
+}
+
+.footer-link {
+  color: $footer-color;
+  padding-left: 0.2em;
+  display: flex;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+    height: 20px;
+    margin-right: 0.2em;
+  }
 }
