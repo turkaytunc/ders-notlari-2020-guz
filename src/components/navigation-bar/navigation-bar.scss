@@ -62,4 +62,11 @@ $navbar-background-color: #234475;
   .navbar-container {
     font-size: 1em;
   }
+  .navbar-menu-item {
+    margin-left: 1em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 }
