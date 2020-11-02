@@ -11,11 +11,13 @@ function App() {
     <Router>
       <div className="app">
         <NavigationBar />
-        <Switch>
-          <Route exact path="/" component={WelcomePage} />
-          <Route path="/formel-diller" component={FormelDiller} />
-          <Route path="/mobil-uygulama" component={MobilUygulama} />
-        </Switch>
+        <div className="route-container">
+          <Switch>
+            <Route exact path="/" component={WelcomePage} />
+            <Route path="/formel-diller" component={FormelDiller} />
+            <Route path="/mobil-uygulama" component={MobilUygulama} />
+          </Switch>
+        </div>
         <Footer />
       </div>
     </Router>
