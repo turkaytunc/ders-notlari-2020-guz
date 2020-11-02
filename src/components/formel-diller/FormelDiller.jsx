@@ -38,12 +38,14 @@ export const FormelDiller = () => {
               dönüştürülmesi işini yerine getiren program ya da programlar
               kümesidir.
             </p>
+            <p>Compiler</p>
             <div
               className="notes-paragraph"
               style={{
                 flexDirection: 'row',
                 alignItems: 'center',
                 flexWrap: 'wrap',
+                border: '1px dashed black',
               }}
             >
               <RectangleInfo
@@ -52,28 +54,100 @@ export const FormelDiller = () => {
                 content={'Source Text'}
                 radius={5}
               />
-              <p>==={'>'}</p>
+              <p>=={'>'}</p>
               <RectangleInfo
                 width={90}
                 height={45}
                 content={'Frontend (analysis)'}
                 radius={5}
               />
-              <p>==={'>'}</p>
+              <p>=={'>'}</p>
               <RectangleInfo
                 width={130}
                 height={45}
                 content={'Semantic Representation'}
                 radius={5}
               />
-              <p>==={'>'}</p>
+              <p>=={'>'}</p>
               <RectangleInfo
                 width={90}
                 height={45}
                 content={'Backend (synthesis)'}
                 radius={5}
               />
-              <p>==={'>'}</p>
+              <p>=={'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={45}
+                content={'Executable'}
+                radius={5}
+              />
+            </div>
+            <p>Derleme Aşamaları</p>
+            <div
+              className="notes-paragraph"
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                border: '1px dashed black',
+              }}
+            >
+              <RectangleInfo
+                width={90}
+                height={30}
+                content={'Kaynak kod'}
+                radius={20}
+              />
+              <p>={'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={50}
+                content={'Lexical Analysis'}
+                radius={5}
+              />
+              <p>-{'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={50}
+                content={'Syntax Analysis'}
+                radius={5}
+              />
+              <p>-{'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={50}
+                content={'Semantic Analysis'}
+                radius={5}
+              />
+              <p>-{'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={70}
+                content={'Intermediate Code Generation'}
+                radius={5}
+              />
+              <p>-{'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={50}
+                content={'Code Optimization'}
+                radius={5}
+              />
+              <p>-{'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={50}
+                content={'Code Generation'}
+                radius={5}
+              />
+              <p>={'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={30}
+                content={'Hedef kod'}
+                radius={20}
+              />
             </div>
             <p className="notes-paragraph"></p>
             <p className="notes-paragraph"></p>

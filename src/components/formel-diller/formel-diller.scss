@@ -5,8 +5,9 @@
   text-shadow: 1px 1px 1px #fff;
 }
 .index {
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-bottom: 0.5em;
+  text-decoration: underline;
 }
 
 .formel-diller-content {
@@ -19,12 +20,16 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 1.5em;
+
   a {
+    font-size: 1.5em;
     color: #222;
+
     &:visited,
     &:active {
       color: #222;
     }
+
     &:hover {
       color: rgb(230, 126, 78);
     }
