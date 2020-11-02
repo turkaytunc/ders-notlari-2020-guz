@@ -1,5 +1,6 @@
 import './formel-diller.scss';
 import React from 'react';
+import { RectangleInfo } from '../rectangle-info/RectangleInfo';
 
 export const FormelDiller = () => {
   return (
@@ -31,6 +32,51 @@ export const FormelDiller = () => {
               kesin ve katı kurallarını tanımlamada kullanılmaktadır.Bu yönüyle
               derleyicilerin de temellerini oluşturmaktadırlar.
             </p>
+            <p className="notes-paragraph">
+              - Bir derleyici, birprogramlama dilinde (kaynakdil) yazılmış olan
+              bir kaynak kodun başka bir bilgisayar diline (hedefdil)
+              dönüştürülmesi işini yerine getiren program ya da programlar
+              kümesidir.
+            </p>
+            <div
+              className="notes-paragraph"
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+              }}
+            >
+              <RectangleInfo
+                width={90}
+                height={30}
+                content={'Source Text'}
+                radius={5}
+              />
+              <p>==={'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={45}
+                content={'Frontend (analysis)'}
+                radius={5}
+              />
+              <p>==={'>'}</p>
+              <RectangleInfo
+                width={130}
+                height={45}
+                content={'Semantic Representation'}
+                radius={5}
+              />
+              <p>==={'>'}</p>
+              <RectangleInfo
+                width={90}
+                height={45}
+                content={'Backend (synthesis)'}
+                radius={5}
+              />
+              <p>==={'>'}</p>
+            </div>
+            <p className="notes-paragraph"></p>
+            <p className="notes-paragraph"></p>
           </div>
           <div id="hafta-2">
             <h2 style={{ fontWeight: 'normal' }}>2.Hafta</h2>
