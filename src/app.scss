@@ -9,3 +9,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(12, 1fr);
 }
+
+.route-container {
+  grid-row: 2 / 12;
+}
