@@ -38,7 +38,7 @@ export const FormelDiller = () => {
               dönüştürülmesi işini yerine getiren program ya da programlar
               kümesidir.
             </p>
-            <p style={{ fontSize: '1.5em' }}>Compiler</p>
+            <p style={{ fontSize: '1.5em', marginBottom: '1em' }}>Compiler</p>
             <div
               className="notes-paragraph"
               style={{
@@ -83,7 +83,9 @@ export const FormelDiller = () => {
                 radius={5}
               />
             </div>
-            <p style={{ fontSize: '1.5em' }}>Derleme Aşamaları</p>
+            <p style={{ fontSize: '1.5em', marginBottom: '1em' }}>
+              Derleme Aşamaları
+            </p>
             <div
               className="notes-paragraph"
               style={{
@@ -149,7 +151,7 @@ export const FormelDiller = () => {
                 radius={20}
               />
             </div>
-            <p style={{ fontSize: '1.5em' }}>Otomatlar</p>
+            <p style={{ fontSize: '1.5em', marginBottom: '1em' }}>Otomatlar</p>
             <p className="notes-paragraph">
               - Automata kelimesi Yunanca kökenli bir kelime olup, kendi kendine
               eylemede bulunabilen anlamına gelmektedir.

@@ -34,6 +34,20 @@ export const Footer = () => {
             LinkedIn
           </a>
         </div>
+        <div className="footer-social-container">
+          <a
+            href="https://www.turkaytunc.com"
+            className="footer-link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src={`${process.env.PUBLIC_URL}/footer-icons/tr.png`}
+              alt="website"
+            />
+            Website
+          </a>
+        </div>
       </div>
       <div className="footer-copy">&copy; 2020 Türkay Tunç</div>
     </div>
