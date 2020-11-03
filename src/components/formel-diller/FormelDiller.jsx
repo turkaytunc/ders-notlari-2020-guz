@@ -9,19 +9,22 @@ export const FormelDiller = () => {
       <section className="formel-diller-content">
         <section className="table-of-contents">
           <div className="index">İçindekiler</div>
-          <a href="#hafta-1" className="index-link">
-            1. Hafta
+          <a href="#notlar" className="index-link">
+            Notlar
           </a>
-          <a href="#hafta-2" className="index-link">
-            2. Hafta
+          <a href="#compiler" className="index-link">
+            Compiler
           </a>
-          <a href="#hafta-3" className="index-link">
-            3. Hafta
+          <a href="#derleme-asamalari" className="index-link">
+            Derleme Aşamaları
+          </a>
+          <a href="#otomatlar" className="index-link">
+            Otomatlar
           </a>
         </section>
         <section className="notes">
-          <div id="hafta-1">
-            <h2 style={{ fontWeight: 'normal' }}>1.Hafta</h2>
+          <div id="notlar">
+            <h2 style={{ fontWeight: 'normal' }}>Notlar</h2>
             <p className="notes-paragraph">
               - İlk formel dil Gottlob Frege tarafından 1879 yılında tanımlanmış
               olup birinci dereceden mantık (first-order logic) olarak
@@ -38,7 +41,9 @@ export const FormelDiller = () => {
               dönüştürülmesi işini yerine getiren program ya da programlar
               kümesidir.
             </p>
-            <p style={{ fontSize: '1.5em', marginBottom: '1em' }}>Compiler</p>
+            <p id="compiler" style={{ fontSize: '1.5em', marginBottom: '1em' }}>
+              Compiler
+            </p>
             <div
               className="notes-paragraph"
               style={{
@@ -83,7 +88,10 @@ export const FormelDiller = () => {
                 radius={5}
               />
             </div>
-            <p style={{ fontSize: '1.5em', marginBottom: '1em' }}>
+            <p
+              id="derleme-asamalari"
+              style={{ fontSize: '1.5em', marginBottom: '1em' }}
+            >
               Derleme Aşamaları
             </p>
             <div
@@ -151,7 +159,12 @@ export const FormelDiller = () => {
                 radius={20}
               />
             </div>
-            <p style={{ fontSize: '1.5em', marginBottom: '1em' }}>Otomatlar</p>
+            <p
+              id="otomatlar"
+              style={{ fontSize: '1.5em', marginBottom: '1em' }}
+            >
+              Otomatlar
+            </p>
             <p className="notes-paragraph">
               - Automata kelimesi Yunanca kökenli bir kelime olup, kendi kendine
               eylemede bulunabilen anlamına gelmektedir.
@@ -170,14 +183,6 @@ export const FormelDiller = () => {
             </p>
             <p className="notes-paragraph"></p>
             <p className="notes-paragraph"></p>
-          </div>
-          <div id="hafta-2">
-            <h2 style={{ fontWeight: 'normal' }}>2.Hafta</h2>
-            <div>2.hafta icerigi</div>
-          </div>
-          <div id="hafta-3">
-            <h2 style={{ fontWeight: 'normal' }}>3.Hafta</h2>
-            <div>3.hafta icerigi</div>
           </div>
         </section>
       </section>
