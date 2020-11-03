@@ -3,7 +3,12 @@ import './rectangle-info.scss';
 import React from 'react';
 
 export const RectangleInfo = (props) => {
-  const { width, height, content, radius } = props;
+  const {
+    width = 50,
+    height = 30,
+    content = 'Unknown content.',
+    radius = 0,
+  } = props;
   return (
     <div
       className="rectangle-info-container"

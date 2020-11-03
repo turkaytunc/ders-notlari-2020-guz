@@ -38,7 +38,7 @@ export const FormelDiller = () => {
               dönüştürülmesi işini yerine getiren program ya da programlar
               kümesidir.
             </p>
-            <p>Compiler</p>
+            <p style={{ fontSize: '1.5em' }}>Compiler</p>
             <div
               className="notes-paragraph"
               style={{
@@ -83,7 +83,7 @@ export const FormelDiller = () => {
                 radius={5}
               />
             </div>
-            <p>Derleme Aşamaları</p>
+            <p style={{ fontSize: '1.5em' }}>Derleme Aşamaları</p>
             <div
               className="notes-paragraph"
               style={{
@@ -149,6 +149,23 @@ export const FormelDiller = () => {
                 radius={20}
               />
             </div>
+            <p style={{ fontSize: '1.5em' }}>Otomatlar</p>
+            <p className="notes-paragraph">
+              - Automata kelimesi Yunanca kökenli bir kelime olup, kendi kendine
+              eylemede bulunabilen anlamına gelmektedir.
+            </p>
+            <p className="notes-paragraph">
+              - Bir otomat,önceden belirlenmiş bir işlemler dizisini takip
+              ederek kendiliğinden çalışabilen soyut bir bilgisayım cihazıdır.
+            </p>
+            <p className="notes-paragraph">
+              - 1950'li yıllarda Stephen Kleene, sonlu bir bellekle donatılmış
+              soyut durum makineleri olan sonlu otomatları ortaya atmıştır.
+            </p>
+            <p className="notes-paragraph">
+              - Alan Turing 1936 yılında Turing Makinası kavramını ortaya
+              atmıştır.
+            </p>
             <p className="notes-paragraph"></p>
             <p className="notes-paragraph"></p>
           </div>
