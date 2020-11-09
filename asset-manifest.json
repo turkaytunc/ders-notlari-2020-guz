@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ders-notlari-2020-guz/static/css/main.582539fd.chunk.css",
+    "main.js": "/ders-notlari-2020-guz/static/js/main.aaaea839.chunk.js",
+    "main.js.map": "/ders-notlari-2020-guz/static/js/main.aaaea839.chunk.js.map",
+    "runtime-main.js": "/ders-notlari-2020-guz/static/js/runtime-main.52c458ba.js",
+    "runtime-main.js.map": "/ders-notlari-2020-guz/static/js/runtime-main.52c458ba.js.map",
+    "static/js/2.94546d1f.chunk.js": "/ders-notlari-2020-guz/static/js/2.94546d1f.chunk.js",
+    "static/js/2.94546d1f.chunk.js.map": "/ders-notlari-2020-guz/static/js/2.94546d1f.chunk.js.map",
+    "index.html": "/ders-notlari-2020-guz/index.html",
+    "static/css/main.582539fd.chunk.css.map": "/ders-notlari-2020-guz/static/css/main.582539fd.chunk.css.map",
+    "static/js/2.94546d1f.chunk.js.LICENSE.txt": "/ders-notlari-2020-guz/static/js/2.94546d1f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52c458ba.js",
+    "static/js/2.94546d1f.chunk.js",
+    "static/css/main.582539fd.chunk.css",
+    "static/js/main.aaaea839.chunk.js"
+  ]
+}
